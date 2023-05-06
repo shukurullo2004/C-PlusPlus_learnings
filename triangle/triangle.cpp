@@ -13,15 +13,14 @@ int main(){
 
     cout << "symbol: "<<endl;
     cin >> symbol;
-    triangle(symbol);
-    
+    triangle(symbol); 
 }
 
 int triangle(char symbol){
     for(int i = length; i >=1; i--){
-        for(int j = 1; j <i; j++){
+        for(int j = 1; j <=i; j++){
         cout << setw(3) << symbol;
         }cout<<endl;
     }
-    return symbol;  
+    return 0;  
 }
