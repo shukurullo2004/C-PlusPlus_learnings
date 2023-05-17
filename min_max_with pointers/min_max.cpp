@@ -18,7 +18,7 @@ int main() {
     int num[4] = {900, 9, -67, 1000000};
     int size = sizeof(num) / sizeof(num[0]);
 
-    cout << getMax(num,size) << endl;
+    cout << getMax(num,  size) << endl;
 
     return 0;
 }
