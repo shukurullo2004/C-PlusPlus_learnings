@@ -14,54 +14,54 @@ int main() {
 	cout << "Enter your date of birth: " << endl;
 	cout << "\n-Year: ";
 	cin >> Student.year;
-	cout << "\n-Month: ";
+	cout << "\n-month: ";
 	cin >> Student.month;
 	cout << "\n-Day: ";
 	cin >> Student.day;
 
-	string mont;
+	string month;
 	switch (Student.month) {	
 		case 1:
-			mont = "January,";
+			month = "January,";
 			break;
 		case 2:
-			mont = "February,";
+			month = "February,";
 			break;
 		case 3:
-			mont = "March,";
+			month = "March,";
 			break;
 		case 4:
-			mont = "April,";
+			month = "April,";
 			break;
 		case 5:
-			mont = "May,";
+			month = "May,";
 			break;
 		case 6:
-			mont = "June,";
+			month = "June,";
 			break;
 		case 7:
-			mont = "July";
+			month = "July";
 			break;
 		case 8:
-			mont = "August,";
+			month = "August,";
 			break;
 		case 9:
-			mont = "September,";
+			month = "September,";
 			break;
 		case 10:
-			mont = "October,";
+			month = "October,";
 			break;
 		case 11:
-			mont = "November,";
+			month = "November,";
 			break;
 		case 12:
-			mont = "December,";
+			month = "December,";
 			break;
 		default:
-			mont = "Invalid month,";
+			month = "Invalid month,";
 			break;
 	}
 
-	cout << "Your DoB: " << mont << " " << Student.day << " " << Student.year << endl;
+	cout << "Your DoB: " << month << " " << Student.day << " " << Student.year << endl;
 	return 0;
 }
