@@ -45,7 +45,7 @@ int main() {
     }
 
     if (isInside(p1, c)) {
-        std::cout << "\nThe p1 point is inside the circle." << std::endl;
+        std::cout << "The p1 point is inside the circle." << std::endl;
     } else {
         std::cout << "The p1 point is outside the circle." << std::endl;
     }
