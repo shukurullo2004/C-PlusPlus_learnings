@@ -18,9 +18,11 @@ bool palindrome(string word){
    int left = 0;
    int right = sizeof(word)-1;
    while(left < right){
-    if(word[left] != word[right]){
-        return false;
+    if(word[left] == word[right]){
+        return true;
     }
+    left++;
+    right--;
    }
     return true;
 }
